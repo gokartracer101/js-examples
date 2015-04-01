@@ -23,4 +23,4 @@ https://www.alternativefreightservices.com.au/payments/gateway/
 rFactor race scoring application, end result of database displayed on website (variety of technologies used to create)
 http://www.jemlar.com/leaderboard/
 Flash based game (AS2, later rebuilt in AS3) to demonstrate use of real-life product
-http://www.jemlar.com/product/batak/
+http://www.jemlar.com/SpeedReaction-Jemlar.html
