@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> UGLY FORM</title>
+	<script>
+	//take POST
+	window.onload = function() {
+		var parts = window.location.search.substr(1).split("&");
+		var $_GET = {};
+		for (var i = 0; i < parts.length; i++) {
+	    	var temp = parts[i].split("=");
+	    	$_GET[decodeURIComponent(temp[0])] = decodeURIComponent(temp[1]);
+		}
+
+		if($_GET != null){
+			console.log($_GET.firstname);
+			console.log($_GET.lastname);    
+			console.log($_GET.choice);
+			console.log($_GET.new);
+		}
+	};
+
+	function subForm() {
+		var newWin = document.getElementsByName("new");
+		if(newWin[1].checked == true) {
+	       window.open("http://www.optionb.com.au");
+	    }
+	}
+	</script>
+</head>
+<body>
+	<form action="" method="get" onsubmit="subForm()">
+	First Name : <input type="text" name="firstname" value="" placeholder="First Name"><br/><br/>
+	Last Name : <input type="text" name="lastname" value="" placeholder="Last Name"><br/><br/>
+	Choose stuff: <select name="choice">
+					<option value=1>A</option>
+					<option value=2>B</option>
+					<option value=3>C</option>
+				  </select><br/><br/>
+				<input type="radio" value="no_new_window" checked name="new">No New Window <input type="radio" value="new_window" name="new"> New Window<br/><br/>
+				<input type="submit" value="SUBMIT!">
+	</form>
+</body>
+</html>
