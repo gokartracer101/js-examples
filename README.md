@@ -18,3 +18,9 @@ Very crude demo html page, quickly knocked up with inline javascript outputting 
 /*jQ-custom CC surcharge.js*/
 Custom jQuery code to add a surcharge to a credit card payment (Visa/Mastercard 1.5% & AMEX 2.9%)
 https://www.alternativefreightservices.com.au/payments/gateway/
+
+/*missing/lost code examples*/
+rFactor race scoring application, end result of database displayed on website (variety of technologies used to create)
+http://www.jemlar.com/leaderboard/
+Flash based game (AS2, later rebuilt in AS3) to demonstrate use of real-life product
+http://www.jemlar.com/product/batak/
